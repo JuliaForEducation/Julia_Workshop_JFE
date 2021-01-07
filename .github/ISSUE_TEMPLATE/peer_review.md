@@ -1,13 +1,13 @@
 ---
 name: Peer Review
 about: 'Evaluación de proyecto por pares'
-title: ""
+title: "Revisión por pares"
 labels: "evaluation peer review"
 assignees: ''
 
 ---
 
-<!--A continuación responde las preguntas presentadas para realizar la revisión por pares (peer review).-->
+<!--A continuación responde las preguntas presentadas para realizar la revisión por pares (peer review) y completa el título del issue con las iniciales de tu nombre.-->
 
 ## Identificación
 * ¿A qué grupo pertenece?
