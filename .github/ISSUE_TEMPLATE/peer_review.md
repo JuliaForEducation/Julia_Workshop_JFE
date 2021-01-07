@@ -1,4 +1,13 @@
-A continuación responde las preguntas presentadas para realizar la revisión por pares (peer review).
+---
+name: Peer Review
+about: 'Evaluación de proyecto por pares'
+title: ""
+labels: "evaluation peer review"
+assignees: ''
+
+---
+
+<!--A continuación responde las preguntas presentadas para realizar la revisión por pares (peer review).-->
 
 ## Identificación
 * ¿A qué grupo pertenece?
