@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-<!--A continuación responde las preguntas presentadas para realizar la revisión por pares (peer review) y completa el título del issue con las iniciales de tu nombre.-->
+<!--Responde las preguntas presentadas para realizar la revisión por pares (peer review) y completa el título del issue con las iniciales de tu nombre.-->
 
 ## Identificación
 * ¿A qué grupo pertenece?
