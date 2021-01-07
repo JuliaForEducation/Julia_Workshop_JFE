@@ -1,7 +1,7 @@
 ---
 name: Final Evaluation
 about: 'Evaluación del tutor'
-title: ""
+title: "Evaluación Final"
 labels: "tutor evaluation"
 assignees: ''
 
