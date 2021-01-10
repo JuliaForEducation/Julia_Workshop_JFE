@@ -97,6 +97,7 @@ begin
 	scatter(zcomplejo, seriescolor=:white,
 		    markerstrokecolor=:blue,
 		    aspectratio=1,
+			size=(700, 550),
 		    title="Gráfica de ejemplo")
 end
 
@@ -110,7 +111,7 @@ begin
 	x = -2:0.3:2  
 	y = -2:0.3:2
 	colores = [i₁*i₂ for i₁ in x, i₂ in y]
-	heatmap(x, y, colores, color=cgrad([:black,:blue,:white]), 
+	heatmap(x, y, colores, color=cgrad([:black,:blue,:white]), size=(700, 550), 
 		    title="Ejemplo Mapa de Calor", xlabel="Re(z)", ylabel="Im(z)")
 end
 
