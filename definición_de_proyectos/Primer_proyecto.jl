@@ -83,6 +83,9 @@ md"
 Para realizar las gráficas se utilizará el paquete Plots, por lo tanto el paquete debe ser importado:
 "
 
+# ╔═╡ 16040e00-539c-11eb-0f12-db5ae4d9970f
+Plots.default(size = (650,450))
+
 # ╔═╡ cd1023fa-3b3b-11eb-22ec-2724be9b2af8
 md"
 A continuación se mostrarán ejemplos para realizar gráficas con el paquete, los cuales pueden usarse para mostrar las formas biológicas y los conjuntos de Julia y Mandelbrot, una vez se hayan obtenido los datos necesarios.
@@ -97,7 +100,6 @@ begin
 	scatter(zcomplejo, seriescolor=:white,
 		    markerstrokecolor=:blue,
 		    aspectratio=1,
-			size=(700, 550),
 		    title="Gráfica de ejemplo")
 end
 
@@ -111,7 +113,7 @@ begin
 	x = -2:0.3:2  
 	y = -2:0.3:2
 	colores = [i₁*i₂ for i₁ in x, i₂ in y]
-	heatmap(x, y, colores, color=cgrad([:black,:blue,:white]), size=(700, 550), 
+	heatmap(x, y, colores, color=cgrad([:black,:blue,:white]),
 		    title="Ejemplo Mapa de Calor", xlabel="Re(z)", ylabel="Im(z)")
 end
 
@@ -447,6 +449,7 @@ md"
 # ╟─a79e42e0-3a31-11eb-3791-2dde6b25172b
 # ╟─231273f6-3b3b-11eb-2b3b-2308e244a358
 # ╠═63b9e832-3b3b-11eb-0d45-b54bff3a4c10
+# ╠═16040e00-539c-11eb-0f12-db5ae4d9970f
 # ╟─cd1023fa-3b3b-11eb-22ec-2724be9b2af8
 # ╠═4070b426-3b3d-11eb-1ef2-73f2f10c9ce6
 # ╟─5a70e2f4-3b3f-11eb-1dfe-a777db142c6b
