@@ -4,7 +4,7 @@ module BooksController
     using Genie.Renderer.Html, SearchLight, Books
 
     function myfavoritebooks()
-        html(:books, :myfavoritebooks, layout = :admin , books = BooksController.MyFavoriteBooks)
+        html(:books, :myfavoritebooks, layout = :admin , books = all(Book))
     end
 
     module API
