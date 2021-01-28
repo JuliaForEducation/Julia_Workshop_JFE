@@ -6,11 +6,13 @@ function up()
   create_table(:books) do
     [
       primary_key()
-      column(:column_name, :column_type)
+      column(:title, :string, limit = 100)
+      column(:author, :string, limit = 100)
     ]
   end
 
-  add_index(:books, :column_name)
+  add_index(:books, :title)
+  add_index(:books, :author)
 end
 
 function down()
