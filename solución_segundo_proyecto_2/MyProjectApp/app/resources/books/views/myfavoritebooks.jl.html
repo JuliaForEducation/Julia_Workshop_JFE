@@ -1,0 +1,7 @@
+<!-- myfavoritebooks.jl.html -->
+<h1>Mi top $(length(books)) de libros favoritos</h1>
+<ul>
+    <% @foreach(books) do book %>
+        <li>$(book.title) escrito por $(book.author)</li>
+    <% end %>
+</ul>
