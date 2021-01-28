@@ -24,4 +24,5 @@ module Books
     for b in MyFavoriteBooks
         Book(title = b[1], author = b[2]) |> save!
     end
+  end
 end
