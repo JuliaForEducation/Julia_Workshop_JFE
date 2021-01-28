@@ -1,12 +1,14 @@
 module Books
 
-import SearchLight: AbstractModel, DbId
-import Base: @kwdef
+    import SearchLight: AbstractModel, DbId, save!
+    import Base: @kwdef
 
-export Book
+    export Book
 
-@kwdef mutable struct Book <: AbstractModel
-  id::DbId = DbId()
-end
+    @kwdef mutable struct Book <: AbstractModel
+      id::DbId = DbId()
+      title::String = ""
+      author::String = ""
+    end
 
 end
