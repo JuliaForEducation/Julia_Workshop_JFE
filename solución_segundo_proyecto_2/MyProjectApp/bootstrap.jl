@@ -1,0 +1,2 @@
+using MyProjectApp
+MyProjectApp.main()

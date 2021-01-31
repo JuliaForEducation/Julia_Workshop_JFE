@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyecto #2: Desarrollo Web con Genie.jl</title>
+
+  <!-- Bootstrap -->
+  <link href="/css/genie/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/genie/style.css" rel="stylesheet">
+  <link href="/css/genie/prism.css" rel="stylesheet" />
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".side-menu">
+  <div class="container-fluid">
+    <!-- Start: Header -->
+    <div class="row hero-header" id="home">
+      <div class="col-md-7">
+        <h1 id="main-heading">Bienvenid@ a mi proyecto</h1>
+        <br>
+        <p>
+            Este proyecto consiste en utilizar MVC para mostrar mi lista de libros favoritos
+            ya sea en un formato .html o en formato .json.
+        </p>
+      </div>
+      <div class="col-md-5 hidden-xs">
+        <img src="/img/genie/genie.png" class="rocket animated bounce" alt="Genie">
+      </div>
+    </div>
+    <!-- End: Header -->
+  </div>
+
+  <!-- Start: Help -->
+  <div class="container-fluid whats-next" id="whats-next">
+    <div class="row me-row content-ct">
+      <h2 class="row-title">¿Qué quieres hacer?</h2>
+      <div class="col-md-4 feature">
+        <h3>Ingresa tu nombre</h3>
+        <form action="/name" method="POST" enctype="multipart/form-data">
+            <input type="text" name="name" value="" placeholder="Aquí va tu nombre." />
+            <input type="submit" value="Ok" />
+        </form>
+      </div>
+      <div class="col-md-4 feature">
+        <h3>Mi lista de libros favoritos</h3>
+        <a href="/mfbooks" target="">Pulsa Aquí</a>
+      </div>
+      <div class="col-md-4 feature">
+        <h3>Igual que el anterior, pero en Json</h3>
+        <a href="/api/v1/mfbooks" target="">Pulsa Aquí</a>
+      </div>
+    </div>
+  </div>
+  <!-- End: Help -->
+
+  <!-- Start: Footer -->
+  <div class="container-fluid footer">
+    <div class="row footer-credit">
+      <div class="col-md-12 col-sm-12">
+        <p>
+            Created by <a href="https://github.com/hristoviedo/Julia_Workshop_JFE">Hristo Oviedo</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- End: Footer -->
+
+  <script src="/js/genie/jquery.min.js"></script>
+  <script src="/js/genie/bootstrap.min.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="/js/genie/prism.js"></script>
+</body>
+
+</html>
